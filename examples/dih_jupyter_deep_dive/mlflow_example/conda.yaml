@@ -1,0 +1,11 @@
+# sklearn_elasticnet_wine/conda.yaml
+
+name: tutorial
+channels:
+  - defaults
+dependencies:
+  - numpy
+  - pandas
+  - scikit-learn
+  - pip:
+    - mlflow
